@@ -3,14 +3,30 @@ const buttonResume = document.querySelector(".button2")
 const buttonWork = document.querySelector(".button3")
 const buttonBlog = document.querySelector(".button4")
 const buttonContact = document.querySelector(".button5")
-
+const demo2 = document.getElementById("demo2")
 
 function myFunction() {
     document.getElementById("demo").style.display = "block";
     document.getElementById("demo").innerHTML = `
+    <div class = "d-flex">
     <h2> Resume</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at consequatur harum incidunt iure. Distinctio dolore eligendi hic laudantium magnam, nobis obcaecati quam quibusdam quos repellendus sint, temporibus, unde. Itaque?</p>
-    <img class ="images" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IG3fkurZ7BW7u2kA_agpxwAAAA%26pid%3DApi&f=1">
+</div>
+<div class ="d-flex">
+<div class = "infoResume">
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet iste labore magnam nam numquam possimus qui quod sequi voluptatem?
+ </div>
+<div class = "infoResume">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate eaque esse illo illum molestiae nulla placeat sit, voluptates! Repellendus?</div>
+<div class = "infoResume">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis culpa doloribus facere in nemo neque odit perspiciatis voluptatum! Esse, id.
+</div>
+<div class = "infoResume">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi facere molestiae necessitatibus placeat quidem quis quo recusandae tempora? Non, nulla?
+</div>
+    
+</div>
+
+    
     
     `
 
@@ -19,7 +35,7 @@ function myFunction() {
 function myFunction2() {
 
     document.querySelector(".demo2").innerHTML = `
-<div class="infoBody demo2" id="demo">
+<div class=" demo2" id="demo">
     <h3> ABOUT ME</h3>
     <div>
         <div class="d-flex">
@@ -100,4 +116,18 @@ function myFunction2() {
 </div>
     
     `
+}
+
+function myFunction3 () {
+document.querySelector(".demo3") .innerHTML =`
+<p>work</p>`
+}
+
+function myFunction4 () {
+    document.querySelector(".demo4") .innerHTML =`
+<p>blog</p>`
+}
+function myFunction5 () {
+    document.querySelector(".demo5") .innerHTML =`
+<p>contact</p>`
 }

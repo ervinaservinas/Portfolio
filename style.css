@@ -111,3 +111,10 @@ button {
     background-color: #3b78a6;
 
 }
+
+.infoResume {
+    height: 180px;
+    width: 250px;
+
+    border: #252c29 2px solid;
+}
