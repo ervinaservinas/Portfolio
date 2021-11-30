@@ -1,6 +1,7 @@
 body {
     font-family: monospace;
-    background-color: #7a9191;
+    background: rgb(233,148,148);
+    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
     margin: 0px;
     padding: 0px;
 }
@@ -14,19 +15,22 @@ background-position: center;
 .mainPart {
 
     width: 100%;
-    background-color: bisque;
+    background: rgb(233,148,148);
+    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
 
 }
 .info {
     height: 180px;
     width: 80%;
-    border: 2px solid #312d2d;
+    background: rgb(233,148,148);
+    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
 
 }
 .footer {
     height: 50px;
     width: 100%;
-    background-color: #252c29;
+    background: rgb(233,148,148);
+    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
 }
 .profilePic {
     height: 90px;
@@ -72,4 +76,22 @@ i {
 .images {
     height: 50px;
     width: 50px;
+}
+
+.infoBody {
+    height: 100%;
+
+    border: #252c29 solid 5px;
+
+
+}
+.text {
+    text-align: right;
+}
+button{
+height: 35px;
+    width:100px;
+    border-radius: 20px;
+    background-color: #3b78a6;
+
 }
