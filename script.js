@@ -6,6 +6,7 @@ const buttonContact = document.querySelector(".button5")
 const demo2 = document.getElementById("demo2")
 
 function myFunction() {
+    buttonResume.style.backgroundColor = "red"
     document.getElementById("demo").style.display = "block";
     document.getElementById("demo").innerHTML = `
     <div class = "d-flex">
@@ -118,16 +119,27 @@ function myFunction2() {
     `
 }
 
-function myFunction3 () {
-document.querySelector(".demo3") .innerHTML =`
-<p>work</p>`
+function myFunction3() {
+    document.querySelector(".demo3").innerHTML = `
+<h3><p class ="d-flex">work</p></h3>
+<div class ="d-flex">
+
+<div class = "infoResume">
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet iste labore magnam nam numquam possimus qui quod sequi voluptatem?
+ </div>
+<div class = "infoResume">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate eaque esse illo illum molestiae nulla placeat sit, voluptates! Repellendus?</div>
+ 
+</div>
+`
 }
 
-function myFunction4 () {
-    document.querySelector(".demo4") .innerHTML =`
+function myFunction4() {
+    document.querySelector(".demo4").innerHTML = `
 <p>blog</p>`
 }
-function myFunction5 () {
-    document.querySelector(".demo5") .innerHTML =`
+
+function myFunction5() {
+    document.querySelector(".demo5").innerHTML = `
 <p>contact</p>`
 }
