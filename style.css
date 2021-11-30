@@ -61,4 +61,5 @@ i {
 .buttonsSide {
     height: 100%;
     width: 10%;
+    border-right: #252c29 solid 5px;
 }
