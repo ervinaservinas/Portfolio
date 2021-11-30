@@ -1,78 +1,92 @@
 body {
     font-family: monospace;
-    background: rgb(233,148,148);
-    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
+    background: rgb(233, 148, 148);
+    background: radial-gradient(circle, rgba(233, 148, 148, 1) 0%, rgba(7, 6, 38, 0.7794468129048494) 100%);
     margin: 0px;
     padding: 0px;
 }
+
 /*navigation bar*/
 .navBar {
     height: 250px;
     width: 100%;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F310261-mountain-trees-landscape.jpg&f=1&nofb=1");
-background-position: center;
+    background-position: center;
 }
+
 .mainPart {
 
     width: 100%;
-    background: rgb(233,148,148);
-    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
+    background: rgb(233, 148, 148);
+    background: radial-gradient(circle, rgba(233, 148, 148, 1) 0%, rgba(7, 6, 38, 0.7794468129048494) 100%);
 
 }
+
 .info {
     height: 180px;
     width: 80%;
-    background: rgb(233,148,148);
-    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
+    background: rgb(233, 148, 148);
+    background: radial-gradient(circle, rgba(233, 148, 148, 1) 0%, rgba(7, 6, 38, 0.7794468129048494) 100%);
 
 }
+
 .footer {
     height: 50px;
     width: 100%;
-    background: rgb(233,148,148);
-    background: radial-gradient(circle, rgba(233,148,148,1) 0%, rgba(7,6,38,0.7794468129048494) 100%);
+    background: rgb(233, 148, 148);
+    background: radial-gradient(circle, rgba(233, 148, 148, 1) 0%, rgba(7, 6, 38, 0.7794468129048494) 100%);
 }
+
 .profilePic {
     height: 90px;
     width: 90px;
     border: 2px solid white;
+    margin-top: -30px;
 
 }
-.d-flex{
+
+.d-flex {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     justify-content: space-around;
 
 }
+
 i {
     font-size: 40px;
 }
+
 .ml-10 {
     margin-left: 20px;
 }
+
 .infoBox {
     height: 180px;
     width: 250px;
 
     border-right: #252c29 2px solid;
 }
+
 .f-direction {
     display: flex;
     flex-direction: column;
 
 }
+
 .buttonsSide {
     height: 100%;
     width: 10%;
     border-right: #252c29 solid 5px;
 }
+
 .content {
     height: 20%;
     width: 10%;
     border: #252c29 solid 5px;
     margin: 5px;
 }
+
 .images {
     height: 50px;
     width: 50px;
@@ -85,12 +99,14 @@ i {
 
 
 }
+
 .text {
     text-align: right;
 }
-button{
-height: 35px;
-    width:100px;
+
+button {
+    height: 35px;
+    width: 100px;
     border-radius: 20px;
     background-color: #3b78a6;
 
