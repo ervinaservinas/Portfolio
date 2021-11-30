@@ -6,23 +6,50 @@ body {
 }
 /*navigation bar*/
 .navBar {
-    height: 50px;
+    height: 250px;
     width: 100%;
-    background-color: #252c29;
-
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F310261-mountain-trees-landscape.jpg&f=1&nofb=1");
+background-position: center;
 }
 .mainPart {
-    height: 450px;
+
     width: 100%;
     background-color: bisque;
+
 }
-.sideBar {
-    height: 448px;
-    width: 20%;
+.info {
+    height: 180px;
+    width: 80%;
     border: 2px solid #312d2d;
+
 }
 .footer {
     height: 50px;
     width: 100%;
     background-color: #252c29;
+}
+.profilePic {
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+i {
+    font-size: 40px;
+}
+.ml-10 {
+    margin-left: 20px;
+}
+.infoBox {
+    height: 180px;
+    width: 250px;
+
+    border-right: #252c29 2px solid;
 }
