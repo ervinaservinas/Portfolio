@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    background-color: #7a9191;
+    margin: 0px;
+    padding: 0px;
+}
+/*navigation bar*/
+.navBar {
+    height: 50px;
+    width: 100%;
+    background-color: #252c29;
+
+}
+.mainPart {
+    height: 450px;
+    width: 100%;
+    background-color: bisque;
+}
+.sideBar {
+    height: 448px;
+    width: 20%;
+    border: 2px solid #312d2d;
+}
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #252c29;
+}
