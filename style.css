@@ -53,3 +53,12 @@ i {
 
     border-right: #252c29 2px solid;
 }
+.f-direction {
+    display: flex;
+    flex-direction: column;
+
+}
+.buttonsSide {
+    height: 100%;
+    width: 10%;
+}
