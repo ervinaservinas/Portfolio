@@ -151,13 +151,28 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate 
 function myFunction5() {
     document.querySelector(".demo5").innerHTML = `
 <div class="f-direction d-flex">
-<div><input> </div>
-<div><input> </div>
-<div><input> </div>
-<div><input> </div>
+<div> name <input> </div>
+<div> surname <input> </div>
+<div> e-mail<input> </div>
+<div> phone number<input> </div>
 
 </div>
 
 `
 }
 
+
+//DARK MODE
+
+const themeSwitch = document.querySelector(".darkMode1")
+
+themeSwitch.addEventListener('change', () => {
+    document.body.classList.toggle('dark-theme')
+})
+
+
+function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+}
+
+window.addEventListener('load', addDarkmodeWidget);
