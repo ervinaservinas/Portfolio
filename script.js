@@ -13,14 +13,18 @@ function myFunction() {
 </div>
 <div class ="d-flex">
 <div class = "infoResume">
+<i class="fab fa-amazon"></i>
  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet iste labore magnam nam numquam possimus qui quod sequi voluptatem?
  </div>
 <div class = "infoResume">
+<i class="fab fa-amazon"></i>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate eaque esse illo illum molestiae nulla placeat sit, voluptates! Repellendus?</div>
 <div class = "infoResume">
+<i class="fab fa-amazon"></i>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis culpa doloribus facere in nemo neque odit perspiciatis voluptatum! Esse, id.
 </div>
 <div class = "infoResume">
+<i class="fab fa-amazon"></i>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi facere molestiae necessitatibus placeat quidem quis quo recusandae tempora? Non, nulla?
 </div>
     
@@ -125,9 +129,22 @@ function myFunction3() {
 <div class ="d-flex">
 
 <div class = "infoResume">
+<i class="fab fa-snapchat-square"></i></i>
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet iste labore magnam nam numquam possimus qui quod sequi voluptatem?
+ </div>
+ 
+<div class = "infoResume">
+<i class="fab fa-snapchat-square"></i></i>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate eaque esse illo illum molestiae nulla placeat sit, voluptates! Repellendus?</div>
+ 
+</div>
+<div class ="d-flex">
+<div class = "infoResume">
+<i class="fab fa-snapchat-square"></i></i>
  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet iste labore magnam nam numquam possimus qui quod sequi voluptatem?
  </div>
 <div class = "infoResume">
+<i class="fab fa-snapchat-square"></i></i>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate eaque esse illo illum molestiae nulla placeat sit, voluptates! Repellendus?</div>
  
 </div>
@@ -152,12 +169,24 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate 
 function myFunction5() {
     document.querySelector(".demo5").innerHTML = `
 <div class="f-direction d-flex inputBox">
+<div class ="d-flex">
 <div> name <input> </div>
 <div> surname <input> </div>
+</div>
+
 <div> e-mail<input> </div>
 <div> phone number<input> </div>
-
+<div>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
 </div>
+
+
+Your message here
+
+
+
+
+
 
 `
 }
@@ -182,5 +211,3 @@ let change = document.querySelector(".change")
 function job() {
     window.onclick = () => console.log("hellow")
 }
-
-job()
