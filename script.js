@@ -38,6 +38,7 @@ function myFunction2() {
 <div class=" demo2" id="demo">
     <h3> ABOUT ME</h3>
     <div>
+    
         <div class="d-flex">
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.70sQ3Wo0isIRZt34aF4JHQAAAA%26pid%3DApi&f=1">
 
@@ -150,7 +151,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate 
 
 function myFunction5() {
     document.querySelector(".demo5").innerHTML = `
-<div class="f-direction d-flex">
+<div class="f-direction d-flex inputBox">
 <div> name <input> </div>
 <div> surname <input> </div>
 <div> e-mail<input> </div>
@@ -176,3 +177,10 @@ function addDarkmodeWidget() {
 }
 
 window.addEventListener('load', addDarkmodeWidget);
+let change = document.querySelector(".change")
+
+function job() {
+    window.onclick = () => console.log("hellow")
+}
+
+job()
