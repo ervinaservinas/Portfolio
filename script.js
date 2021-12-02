@@ -4,6 +4,10 @@ const buttonWork = document.querySelector(".button3")
 const buttonBlog = document.querySelector(".button4")
 const buttonContact = document.querySelector(".button5")
 const demo2 = document.getElementById("demo2")
+const body = document.querySelector(".body")
+const buttonDark =document.querySelector(".darkMode")
+
+
 
 function myFunction() {
     document.getElementById("demo").style.display = "block";
@@ -178,9 +182,6 @@ function myFunction5() {
 <div> phone number<input> </div>
 <div>
 <textarea id="w3review" name="w3review" rows="4" cols="50">
-</div>
-
-
 Your message here
 
 
@@ -192,22 +193,24 @@ Your message here
 }
 
 
-//DARK MODE
+// DARK MODE
 
-const themeSwitch = document.querySelector(".darkMode1")
+// const themeSwitch = document.querySelector(".darkMode1")
+//
+// themeSwitch.addEventListener('change', () => {
+//     document.body.classList.toggle('dark-theme')
+// })
+//
+//
+// function addDarkmodeWidget() {
+//     new Darkmode().showWidget();
+// }
+//
+// window.addEventListener('load', addDarkmodeWidget);
+// let change = document.querySelector(".change")
 
-themeSwitch.addEventListener('change', () => {
-    document.body.classList.toggle('dark-theme')
-})
 
-
-function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-}
-
-window.addEventListener('load', addDarkmodeWidget);
-let change = document.querySelector(".change")
-
-function job() {
-    window.onclick = () => console.log("hellow")
-}
+ buttonDark.onclick = () => {
+    body.style.backgroundColor = "black"
+     body.style.font
+ }
