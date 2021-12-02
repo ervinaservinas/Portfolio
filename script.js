@@ -5,8 +5,7 @@ const buttonBlog = document.querySelector(".button4")
 const buttonContact = document.querySelector(".button5")
 const demo2 = document.getElementById("demo2")
 const body = document.querySelector(".body")
-const buttonDark =document.querySelector(".darkMode")
-
+const buttonDark = document.querySelector(".darkMode")
 
 
 function myFunction() {
@@ -210,7 +209,28 @@ Your message here
 // let change = document.querySelector(".change")
 
 
- buttonDark.onclick = () => {
+buttonDark.onclick = () => {
     body.style.backgroundColor = "black"
-     body.style.font
- }
+    body.style.fontColor = "white"
+}
+
+
+//Get the button
+let myButton = document.getElementById("myBtn")
+
+window.onscroll = function () {
+    scrollFunction()
+}
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myButton.style.display = "block"
+    } else {
+        myButton.style.display = "none"
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+}
